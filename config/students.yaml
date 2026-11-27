@@ -1,0 +1,13 @@
+# FAKE students of the test customer "claude-demo". Public repo: example.com addresses only.
+students:
+  # QA account: may join this customer's course (students can belong to several customers)...
+  - email: claude-test+clerk_test1@example.com
+    offerings:
+      - demo2-course-2027-03
+      # ...but this customer must NOT be able to grant access to another customer's course.
+      # test-locked-2027-04 belongs to customer "vchernoy"; the platform must ignore this line.
+      - test-locked-2027-04
+
+  - email: demo2-student@example.com
+    offerings:
+      - demo2-course-2027-03

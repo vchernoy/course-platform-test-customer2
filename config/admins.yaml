@@ -1,0 +1,7 @@
+# FAKE admins of the test customer "claude-demo". `platform` scope = everything of THIS customer only.
+admins:
+  - email: owner@claude-demo.example.com
+    assignments:
+      - role: owner
+        scope:
+          type: platform
