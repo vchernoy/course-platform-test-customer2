@@ -1,0 +1,6 @@
+# FAKE public site of the test customer "claude-demo".
+title: "TEST (customer 2) · Claude Demo Academy"
+visibility: public
+navigation:
+  - title: Home
+    page: index

@@ -1,0 +1,14 @@
+# FAKE course of the test customer "claude-demo".
+title: "TEST (customer 2) · Budgeting basics — Mar 2027"
+format: course
+description: "Fake course owned by a second test customer, to check customer isolation."
+startDate: "2027-03-01"
+endDate: "2027-03-31"
+published: true
+visibility: private
+modules:
+  - slug: week-1
+    title: "Week 1 · Budgets"
+    lessons:
+      - slug: fifty-thirty-twenty
+        title: The 50/30/20 rule
