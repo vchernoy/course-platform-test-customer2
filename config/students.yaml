@@ -8,6 +8,11 @@ students:
       # test-locked-2027-04 belongs to customer "vchernoy"; the platform must ignore this line.
       - test-locked-2027-04
 
+  - email: claude-test+clerk_test1@example.com
+    offerings:
+      - demo2-course-2027-03
+      - test-locked-2027-04
+
   - email: demo2-student@example.com
     offerings:
       - demo2-course-2027-03
